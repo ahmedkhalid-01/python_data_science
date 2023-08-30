@@ -1,0 +1,43 @@
+Project 1
+
+Write a python script to read all files in the data folder and combine them into a single file.
+Write the combined file in a folder called Project 1. Then commit and push all the changes to your respective branches.
+
+Project 2
+
+same as Project 1, but rather than appending files I would like you to MERGE them.
+you will then explain to me the difference between APPEND and MERGE
+
+Project 3
+
+Make a line plot of each column in the Master file.
+This should be presented in a single plot where each column line plot is a subplot.
+
+Project 4
+
+Use the APPLY function to convert a DF column based on the following logic..
+if column value is greater than 0 change it to 1000, else make it 0
+
+Project 5
+
+For each CSV file in the Data folder, add a column called Tag Name. The value of this column will be a string. The string will be extracted from the file name, and will be between the LAST DOT and the SECOND LAST DOT.
+APPEND all the Dataframes and save as .CSV
+Read back the CSV from step 2, and PIVOT the DF on the TAG NAME column. Save the PIOVTED DF as a CSV
+
+Project 7
+
+Using Python extract first 10000 rows of the table in sqllite
+For the column with Flow values, calculate the 7 day moving average
+Create a new Moving Average column and write the results back to SQLLite
+
+Project 8
+
+Extract the Flow and Moving Day Average Flow from SQLite
+Plot the two trends using Plotly
+Plot the two trends with Seaborn
+Normalize the two columns and plot them on Plotly and Seaborn
+
+Project 9
+
+Take the file from Project 7 and plot it as a LINE PLOT in PLOTLY.
+
